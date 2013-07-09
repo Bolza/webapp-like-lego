@@ -30,24 +30,28 @@
 	top: 430px;
 	left: 690px;
 }
-.reveal section .bigfont {
-	font-size: 0.9em;
+.reveal section .bigfont {font-size: 0.9em;}
+.reveal section ul.big {
+	font-size: 1.3em; 
+	text-transform: uppercase;
+	line-height: 60px;
 }
 
 .reveal .slides section .fragment.roll-in.overall,
 .reveal section .overall {
 	position: absolute;
 	top: 0;
-	z-index: 2;
 	width: 100%;
-	height: 100%;
+	height: 450px;
 	background: #333;
-	opacity: 1;
+
 }
 
-.reveal section .inline {
-	display: inline-block;
-}
-.reveal section .blue {
-	color: #71e9f4;
-}
+.reveal section .inline {display: inline-block;}
+.reveal section .left {float: left;margin-left: 80px;}
+.reveal section .blue {color: #71e9f4;}
+.reveal section .stroke {text-decoration: line-through;}
+.reveal section .topspace {margin-top:40px;}
+.reveal section .lego {line-height: 60px;}
+.reveal section .nomargin {margin:0;}
+/*.reveal section ul.lego {list-style-image: url('../images/lego-list.png'); line-height: 60px;}*/

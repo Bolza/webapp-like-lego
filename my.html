@@ -75,38 +75,35 @@
 					</section>
 				</section>	
 
-				<section>
-					<h3>Making a Mobile App</h3>
-					<h4>...the Modular Way</h4>
-					<p>
-						<blockquote cite="#">
-						&ldquo;Every program is a part of some other program and rarely fits.&rdquo;
-						<div class="author">Alan J. Perlis</div>  
-						</blockquote>
-						<img class="noborder" src='images/lego-app.png' />
-					</p>
-
-					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
-					</aside>
-				</section>
-
 <!-- LEGO BRICKS -->
 				<section>
-					<h2>The Lego Bricks we need</h2>
-					<ul>
-						<li><stroke>Templating Engine</stroke></li>
-						<li>Data Manager: calls API REST and handle results</li>
+					<h2>Making a Mobile App the Modular Way</h2>
+					<blockquote class="" cite="#">
+						&ldquo;Every program is a part of some other program and rarely fits.&rdquo;
+						<div class="author">Alan J. Perlis</div>  
+					</blockquote>
+					<p>
+						<img class="noborder" src='images/lego-app.png' />
+					</p>
+				</section>
+<!-- LEGO BRICKS NEEDED -->
+				<section class="large">
+					<h2>Which Lego Bricks do we need...</h2>
+					<h3>...to build this?</h3>
+					<img class="left" src="images/project-search.png" />
+					<ul class="lego left medium ">
 						<li>A List of Items</li>
 						<li>Actions on these list items</li>
-						<li>Search As You Type || Incremental Search</li>
+						<li>Search As You Type</li>
 					</ul>
 				</section>
+
+
 
 				<section>
 <!-- SETUP -->
 					<section>
-						<h2>Get everything up and ready</h2>
+						<h2>Get everything up and running</h2>
 						<pre><code data-trim contenteditable>
 Refuel.define('TVSApp',{require: ['GenericModule', 'DataSource']},
   function TVSApp() {  
@@ -234,8 +231,8 @@ app = Refuel.newModule('GenericModule', {
 					</section>		
 
 					<section>
-						<h2>Module+Module = ♥</h2>
-						<pre><code data-trim contenteditable>
+						<h2>Module+Module = <img class="inline noborder nomargin" src="images/lego-h.png" /></h2>
+						<pre class="large"><code data-trim contenteditable>
 <header id="saytbox" data-rf-sayt="searchSayt">
   <!-- INPUT BOX IS HERE -->
   <ul data-rf-list="results" class="sayt-results">
@@ -246,10 +243,33 @@ app = Refuel.newModule('GenericModule', {
 </header>
 						</code></pre>
 					</section>
-					
+				</section>
 
+				<section>
+					<h2>We done?</h2>
+					<div class="fragment roll-in">
+					<img class="noborder" src="images/lego-pumpkin.png" />
+					<h3>Of course not.</h3>
+					</div>
+				</section>
+
+				<section>
+					<h2>The story continues here...</h2>
+					<ul class="big">
+						<li><a href="http://refueljs.com">refueljs.com</a></li>
+						<li><a href="http://tvshowmark.it">tvshowmark.it</a></li>
+						<li><a href="http://appsfuel.com">appsfuel.com</a></li>
+					</ul>
+
+					<div class="topspace fragment roll-in">
+						<h3>Thanks you for your patience</h3>
+						<div><a href="mailto:stefano@appsfuel.com">stefano@appsfuel.com</a> by Email</div>
+						<div><a href="http://twitter.com/StefanoSergio">@StefanoSergio</a> on Twitter</div>
+						<div><a href="https://github.com/Bolza">Bolza</a> on Github</div>
+					</div>
 
 				</section>
+
 
 			</div>
 
