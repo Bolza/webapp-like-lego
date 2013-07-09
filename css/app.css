@@ -1,0 +1,28 @@
+.reveal .slides .large {
+	width: 1000px;
+	max-width: 1000px;
+}
+
+#logo {
+	width: 571px;
+
+	
+}
+.reveal section img.noborder {
+	border: 0;
+	background: transparent;
+	box-shadow: none;
+}
+
+.reveal section .author {
+	text-transform: italic;
+	font-size: 0.8em;
+	color: #71e9f4;
+}
+
+.reveal section .trollface {
+	position: absolute;
+	width: 210px;
+	top: 430px;
+	left: 690px;
+}
