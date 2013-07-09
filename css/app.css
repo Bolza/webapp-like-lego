@@ -2,6 +2,10 @@
 	width: 1000px;
 	max-width: 1000px;
 }
+.reveal .slides .medium {
+	width: 500px;
+	max-width: 500px;
+}
 
 #logo {
 	width: 571px;
@@ -25,4 +29,25 @@
 	width: 210px;
 	top: 430px;
 	left: 690px;
+}
+.reveal section .bigfont {
+	font-size: 0.9em;
+}
+
+.reveal .slides section .fragment.roll-in.overall,
+.reveal section .overall {
+	position: absolute;
+	top: 0;
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+	background: #333;
+	opacity: 1;
+}
+
+.reveal section .inline {
+	display: inline-block;
+}
+.reveal section .blue {
+	color: #71e9f4;
 }
